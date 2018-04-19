@@ -14,6 +14,10 @@
 		84F4DC881E54F23200C4BCD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F4DC861E54F23200C4BCD2 /* LaunchScreen.storyboard */; };
 		84F4DC931E54F23300C4BCD2 /* dismissingSeguesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4DC921E54F23300C4BCD2 /* dismissingSeguesTests.swift */; };
 		84F4DC9E1E54F23300C4BCD2 /* dismissingSeguesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4DC9D1E54F23300C4BCD2 /* dismissingSeguesUITests.swift */; };
+		84F4DCAC1E54F2E300C4BCD2 /* OneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4DCAB1E54F2E300C4BCD2 /* OneVC.swift */; };
+		84F4DCAE1E54F2F800C4BCD2 /* TwoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4DCAD1E54F2F800C4BCD2 /* TwoVC.swift */; };
+		84F4DCB01E54F31000C4BCD2 /* ThreeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4DCAF1E54F31000C4BCD2 /* ThreeVC.swift */; };
+		84F4DCB21E54F34C00C4BCD2 /* FourVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4DCB11E54F34C00C4BCD2 /* FourVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		84F4DC991E54F23300C4BCD2 /* dismissingSeguesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dismissingSeguesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F4DC9D1E54F23300C4BCD2 /* dismissingSeguesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dismissingSeguesUITests.swift; sourceTree = "<group>"; };
 		84F4DC9F1E54F23300C4BCD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F4DCAB1E54F2E300C4BCD2 /* OneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneVC.swift; sourceTree = "<group>"; };
+		84F4DCAD1E54F2F800C4BCD2 /* TwoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoVC.swift; sourceTree = "<group>"; };
+		84F4DCAF1E54F31000C4BCD2 /* ThreeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeVC.swift; sourceTree = "<group>"; };
+		84F4DCB11E54F34C00C4BCD2 /* FourVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				84F4DC7D1E54F23200C4BCD2 /* AppDelegate.swift */,
 				84F4DC7F1E54F23200C4BCD2 /* ViewController.swift */,
 				84F4DC811E54F23200C4BCD2 /* Main.storyboard */,
+				84F4DCB11E54F34C00C4BCD2 /* FourVC.swift */,
+				84F4DCAB1E54F2E300C4BCD2 /* OneVC.swift */,
+				84F4DCAD1E54F2F800C4BCD2 /* TwoVC.swift */,
+				84F4DCAF1E54F31000C4BCD2 /* ThreeVC.swift */,
 				84F4DC841E54F23200C4BCD2 /* Assets.xcassets */,
 				84F4DC861E54F23200C4BCD2 /* LaunchScreen.storyboard */,
 				84F4DC891E54F23200C4BCD2 /* Info.plist */,
@@ -188,20 +200,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = admin;
 				TargetAttributes = {
 					84F4DC791E54F23200C4BCD2 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
 					84F4DC8D1E54F23300C4BCD2 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 84F4DC791E54F23200C4BCD2;
 					};
 					84F4DC981E54F23300C4BCD2 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 84F4DC791E54F23200C4BCD2;
 					};
@@ -259,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F4DCB21E54F34C00C4BCD2 /* FourVC.swift in Sources */,
 				84F4DC801E54F23200C4BCD2 /* ViewController.swift in Sources */,
+				84F4DCB01E54F31000C4BCD2 /* ThreeVC.swift in Sources */,
+				84F4DCAE1E54F2F800C4BCD2 /* TwoVC.swift in Sources */,
 				84F4DC7E1E54F23200C4BCD2 /* AppDelegate.swift in Sources */,
+				84F4DCAC1E54F2E300C4BCD2 /* OneVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,15 +343,24 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -355,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -374,15 +402,24 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -399,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -416,7 +453,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.tstc.phyllis.dismissingSegues;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -428,7 +466,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.tstc.phyllis.dismissingSegues;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -441,7 +480,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.tstc.phyllis.dismissingSeguesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dismissingSegues.app/dismissingSegues";
 			};
 			name = Debug;
@@ -455,7 +495,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.tstc.phyllis.dismissingSeguesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dismissingSegues.app/dismissingSegues";
 			};
 			name = Release;
@@ -468,7 +509,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.tstc.phyllis.dismissingSeguesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = dismissingSegues;
 			};
 			name = Debug;
@@ -481,7 +523,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.tstc.phyllis.dismissingSeguesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = dismissingSegues;
 			};
 			name = Release;
@@ -505,6 +548,7 @@
 				84F4DCA41E54F23300C4BCD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84F4DCA51E54F23300C4BCD2 /* Build configuration list for PBXNativeTarget "dismissingSeguesTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +557,7 @@
 				84F4DCA71E54F23300C4BCD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84F4DCA81E54F23300C4BCD2 /* Build configuration list for PBXNativeTarget "dismissingSeguesUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +566,7 @@
 				84F4DCAA1E54F23300C4BCD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

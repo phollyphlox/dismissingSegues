@@ -8,6 +8,9 @@
 
 import UIKit
 
+var numOfVCs = 0
+var count = 0
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
